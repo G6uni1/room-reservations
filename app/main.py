@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="Sistema de Reservas de Salas")
+app = FastAPI(title="Room Reservations API")
 
 @app.get("/health")
 def health_check():
