@@ -9,18 +9,20 @@ Sistema de reservas de salas de estudo, construído com FastAPI, PostgreSQL e au
 
 ## Arquitetura
 
+```text
 room-reservations/
 ├── app/
-│   ├── core/           # Configurações, conexão com banco, segurança (JWT/hash)
-│   ├── models/          # Modelos SQLAlchemy (User, Resource, Reservation)
-│   ├── schemas/          # Schemas Pydantic (validação de entrada/saída)
-│   ├── routers/          # Rotas da API (auth, resources, reservations)
-│   ├── tests/             # Testes automatizados (pytest)
-│   └── main.py            # Ponto de entrada da aplicação
-├── alembic/               # Migrations do banco de dados
+│   ├── core/          # Configurações, conexão com banco, segurança (JWT/hash)
+│   ├── models/        # Modelos SQLAlchemy (User, Resource, Reservation)
+│   ├── schemas/       # Schemas Pydantic (validação de entrada/saída)
+│   ├── routers/       # Rotas da API (auth, resources, reservations)
+│   ├── tests/         # Testes automatizados (pytest)
+│   └── main.py        # Ponto de entrada da aplicação
+├── alembic/           # Migrations do banco de dados
 ├── Dockerfile
 ├── docker-compose.yml
 └── requirements.txt
+```
 
 ### Stack
 
