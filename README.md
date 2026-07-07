@@ -1,10 +1,10 @@
 # Room Reservations API
 
 Sistema de reservas de salas de estudo, construído com FastAPI, PostgreSQL e autenticação JWT. Permite que usuários consultem disponibilidade de salas e façam reservas, com bloqueio automático de conflitos de horário.
-```text
-🔗 **API em produção**: https://room-reservations-037f.onrender.com
+
+🔗 **API em produção**: https://room-reservations-037f.onrender.com <br>
 📄 **Documentação interativa (Swagger)**: https://room-reservations-037f.onrender.com/docs
-```
+
 ---
 
 ## Arquitetura
@@ -161,7 +161,6 @@ O projeto está publicado na [Render](https://render.com), com:
 
 *(Swagger UI da API em produção)*
 
-![Swagger UI](swagger-screenshot.png)
 ![Swagger UI](image-2.png)
 
 ---
